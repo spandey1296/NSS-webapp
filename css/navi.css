@@ -1,0 +1,194 @@
+body,h1 { 
+  margin:0px;
+  padding: 0px;
+}
+
+.tab{
+  margin-left: 0; 
+  margin-right: 0;
+  width: 13%;
+  position: absolute;
+  z-index: -1;
+} 
+
+.topbar{
+  height: 50px;
+  width: 100%;
+  float: left;
+}
+.topbar>.ss{
+  
+  height:50px;
+  width: 12%;
+  float: left;
+  background-color: #333;
+  text-align: center;
+  color: red;
+  line-height: 23px;
+  font-weight: bold;
+
+}
+.topbar>.s{
+  float: left;
+  height: 50px;
+  width: 88%;
+  display: block;
+  text-align: center;
+  background-color: #333;
+}
+  .topbar>.s>ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
+   text-decoration: none;
+   
+  }  
+
+.topbar>.s>ul>li {
+      text-align: center;
+      text-decoration: none;
+      float: left;
+      width: 10%;
+      font-weight: bold; 
+  
+}
+.topbar>.s>ul>li>a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 0px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  
+}
+.second{
+  float: left;
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+
+}
+.second>.img1{
+  float: left;
+  width: 10%;
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+.second>.img2{
+  float: left;
+  width: 10%;
+  height: 200px;
+  background-color: red;
+  color: white;
+}
+.second>.titlehere{
+  float: left;
+  width: 60%;
+  height: 200px;
+
+}
+.second>.img3{
+  float: left;
+  width: 10%;
+  height: 200px;
+  background-color: blue;
+  color: white;
+}.second>.img4{
+  float: left;
+  width: 10%;
+  height: 200px;
+  background-color: green;
+  color: white;
+}
+/* .navigation{
+  padding:20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: lightgrey;
+  display: block;
+} */
+#logo{
+  display: block;
+  text-align: center;
+  width: 50;
+  right-margin: 20;
+  float: center;
+}
+.demo{
+  margin-top: 3%;
+  padding: 15px;
+  margin-left: 13%;
+  margin-right: 13%;
+  color: white;
+  display: block;
+}
+#d{
+  margin-left: 25%; 
+  color: black;
+  text-shadow: all;
+}
+.footer{
+   width: 100%;
+   height: 40%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  float: right;
+  
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

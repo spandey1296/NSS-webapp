@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chitkara</title>
+	<link rel="stylesheet" type="text/css" href="css/newss.css">
+  <script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+           $(".second").click(function(){
+              $("#video").fadeIn();
+           });
+          $("#button1").click(function(){
+                $("#testID1").slideToggle();
+           });
+          $("#button2").click(function(){
+                $("#testID2").slideToggle();
+           });
+          $("#button3").click(function(){
+                $("#testID3").slideToggle();
+           });
+          $("#button4").click(function(){
+                $("#testID4").slideToggle();
+           });
+          $("#button5").click(function(){
+                $("#testID5").slideToggle();
+           });
+          $("#button6").click(function(){
+                $("#testID6").slideToggle();
+           });
+           $("#button7").click(function(){
+                $("#testID7").slideToggle();
+           });
+      });
+  </script>
+</head>
+<body onload="clickIt()"> 
+		<div class="topbar">
+		<div class="ss"><p id="kk">CU-NSS</p>
+		</div>
+<div class="s">		
+		<ul>
+  <li><a href="login.htm">Home</a></li>
+   <li><a href="aim.htm">Aim</a></li>
+    <li><a href="fourpillars.html">Four Pillars</a></li>
+  <li><a href="events.htm">Events</a></li>
+   <li><a href="news.htm">News</a></li>
+  <li><a href="about.htm">About</a></li>
+   <li><a href="suggestion.htm">Suggestions</a></li>
+   </ul>
+</div>
+</div>
+<div class="second">
+	<div class="img1"><img src="assests/culogo.png"></div>
+	<div class="titlehere"><h1 id="d">NSS <br> National Service Scheme</h1><hr width="60%" color="#332965"></div>
+	<div class="img3"><img src="assests/nsslogo.png"></div>
+	<br><br>
+</div>
+<div class="logindetails">
+<div class="query">Queries:</div><br><br>
+  <div class="email"><a href="mailto:sakuchoudhary98@gmail.com" target="_top"><img src="emailicon.jpg"></a> </div>
+  <div class="query1">Register:</div><br><br>
+    <div class="registerform"><img class="open-button" src="assests/formicon.png" onclick="openForm()"></div>
+</div>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+    <label for="name"><b>First Name</b></label>
+    <input type="text" placeholder="First name" name="fname" id="fname" required>
+<label for="name"><b>Last Name</b></label>
+    <input type="text" placeholder="Last name" name="lname" id="lname">
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id= "pass" required>
+
+    <button type="button" class="btn" onclick="formValidation()">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form> 
+</div>
+<div class="mainContent">
+  <div id="video">Upcoming Events</div>
+  <div id="button1" class="newsFeed"><p class="newstext"> SHRAMDAAN </p></div>
+    <div id="testID1" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 23<sup>rd</sup> April 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> 4.30 pm</td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Outside Campus</td>
+          </tr>
+      </table>      
+        </div>
+  <div id="button2" class="newsFeed"><p class="newstext"> Blood Donation</p></div>
+    <div id="testID2" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 1<sup>st</sup> May 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> 10.30 am</td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Kalam Block Room no. 1402</td>
+          </tr>
+      </table>      
+      </div>
+  <div id="button3" class="newsFeed"><p class="newstext"> Orphanage Visit</p></div>
+  <div id="testID3" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 10<sup>th</sup> May 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> 9.30 am</td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Chandigarh</td>
+          </tr>
+      </table>      
+        </div>
+        <div id="button6" class="newsFeed"><p class="newstext"> TREE PLANTATION</p></div>
+    <div id="testID6" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 27<sup>th</sup> April 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> 4.30 pm</td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Kallu Jhanda</td>
+          </tr>
+      </table>      
+      </div>
+  
+  <div id="button4" class="newsFeed"><p class="newstext"> Adventurous Camp</p></div>
+  <div id="testID4" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 23<sup>rd</sup> April 2019 -  30<sup>th</sup> April 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Pong Dam</td>
+          </tr>
+      </table>      
+        </div>
+  <div id="button5" class="newsFeed"><p class="newstext"> NIC Camp</p></div>
+  <div id="testID5" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 10<sup>th</sup> May 2019 -  17<sup>th</sup> May 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> </td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Manali</td>
+          </tr>
+      </table>      
+        </div>
+        <div id="button7" class="newsFeed"><p class="newstext"> RALLY ON DRUGS</p></div>
+    <div id="testID7" class="newsArea">
+      <table id="tabledata" rules="rows" rules="cols">
+          <tr>
+              <td> Date:</td>
+              <td> 5<sup>th</sup> May 2019</td>
+          </tr>
+          <tr>
+              <td> Time:</td>
+              <td> 4.30 pm</td>
+          </tr>
+          <tr>
+              <td> Venue: </td>
+              <td> Outside the campus</td>
+          </tr>
+      </table>      
+      </div>
+  
+</div>
+<br>
+
+
+
+</body>
+</html>

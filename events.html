@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>chitkara</title>
+  <link rel="stylesheet" type="text/css" href="navi1.css">
+  <link rel="stylesheet" type="text/css" href="href="https://www.w3schools.com/w3css/4/w3.css">
+  <script type="text/javascript" src="bar.js"></script>  
+  <script type="text/javascript" src="jq.js"></script>
+</head>
+<body onload="clickIt()"> 
+    <div class="topbar">
+    <div class="ss"><p id="kk">CU-NSS</p>
+    </div>
+<div class="s">   
+    <ul>
+  <li><a href="login.htm">Home</a></li>
+   <li><a href="aim.htm">Aim</a></li>
+    <li><a href="fourpillars.html">Four Pillars</a></li>
+  <li><a href="events.htm">Events</a></li>
+   <li><a href="news.htm">News</a></li>
+  <li><a href="about.htm">About</a></li>
+   <li><a href="suggestion.htm">Suggestions</a></li>
+   </ul>
+</div>
+</div>
+<div class="second">
+  <div class="img1"><img src="assests/culogo.png"></div>
+  <div class="titlehere"><h1 id="d">NSS <br> National Service Scheme</h1><hr width="60%" color="#332965"></div>
+  <div class="img3"><img src="assests/nsslogo.png"></div>
+  <br><br>
+</div>
+<div class="logindetails">
+<div class="query">Queries:</div><br><br>
+  <div class="email"><a href="mailto:sakuchoudhary98@gmail.com" target="_top"><img src="emailicon.jpg"></a> </div>
+  <div class="query1">Register:</div><br><br>
+    <div class="registerform"><img class="open-button" src="assests/formicon.png" onclick="openForm()"></div>
+  </div>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+    <label for="name"><b>First Name</b></label>
+    <input type="text" placeholder="First name" name="fname" id="fname" required>
+<label for="name"><b>Last Name</b></label>
+    <input type="text" placeholder="Last name" name="lname" id="lname">
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id= "pass" required>
+
+    <button type="button" class="btn" onclick="formValidation()">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form> 
+</div>
+ <div class="mainContent">
+
+<div>
+  <br><br>
+  <p align="center" id="video"> Documentry NSS </p>
+<iframe width="560" height="315" style="margin-left: 20%;" src="https://www.youtube.com/embed/tXr5GYKWeFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<hr width="70%" color="#332965">
+</div>
+<div class="eventTable">
+<table id="eventTable" bgcolor="lightgrey" cellpadding="0" cellspacing="0">
+<tr>
+    <th colspan="2" style="color: #E23625;"> <h1>NSS<b><i> EVENTS</i></b></h1> </th>
+  </tr>
+  <br><br>
+  <tr>
+    <td><img src="assests/jackma.jpg"></td>
+    <td><br><br><b><p class="tabtext">NSS DAY<br> 24<sup>th</sup>September<br><br>Inspirational videos were shown on this day and the importance of NSS in our life.This day is of great importance in the life of the NSS volunteer.</b></td></p>
+  </tr>
+   <tr>
+    <td><br><br><b><p class="tabtext">BLOOD DONATION<br><br><br>NSS organises BLOOD DONATION in the campus which helped various hospitals receive 500 units of blood everytime and this camp is organised 4 times in a year i.e. 2 per semester.As we know the importance of blood donation in our life, keeping this in mind NSS plays a great role i organising such camps.</b></td></p>
+    <td><img src="assests/blood1.jpg"></td>
+    </tr>
+    <tr>
+    <td><img src="assests/cloth.jpg"></td>
+    <td><br><br><b><p class="tabtext">CLOTH DONATION<br><br> This event is done in nearby villages and provide the clothes and other things like slippers, Blanket, etc to the Needy people. Many faculty members are also involved in this activity.</b></p></td>
+  </tr>
+   <tr>
+    <td><br><br><p class="tabtext"><b>RALLIES<br><br><br>NSS orgaines rallies on various topics like Swachh Bharat, Drug De-Addiction, Women Empowerment,etc. to create awareness among people.<b></p></td>
+    <td><img src="assests/rally.jpg"></td>
+    </tr>
+    <tr>
+    <td><img src="assests/nukkd.jpg"></td>
+    <td><br><br><b><p class="tabtext">National Days<br> 26<sup>th</sup>January<br>15<sup>th</sup>August<br><br>Nukkad Nataks(Street Play) is performed by NSS Volunteers. <br> Also these plays are performed in various villages to create awareness among people regarding surroundings and many other issues.</b></p></td>
+  </tr>
+   <tr>
+    <td><br><br><p class="tabtext"><b>SHRAMDAAN<br><br><br>Shramdaan is Basically done to create the awareness about Swachhta. In this all the NSS Volunteers go to nearby villages and clean the surroundings making everyone aware to keep environment clean and green.<br> It is done inside as well as outside the campus. s<b></p></td>
+    <td><img src="assests/shramdaan.jpg"></td>
+    </tr>
+    <tr>
+    <td><img src="assests/tree1.jpg"></td>
+    <td><br><br><b><p class="tabtext">Tree Plantation<br><br>This event is done in campus as well as nearby villages. Trees are planted in nearby surroundings to keep the environment neat and clean. <br> This is also done in nearby villages so as keep the people aware of greenery.</b></p></td>
+  </tr>
+   <tr>
+    <td><br><br><p class="tabtext"><b>Orphanage, Old home Visits<br><br><br>NSS Volunteers also visit orphange, Old Age HOme, Handicap Home,etc. where we interact with everyone. Various activities and gifts are given to everyone. This gives peace to mind. <b></p></td>
+    <td><img src="assests/oldage.jpg"></td>
+    </tr>
+<tr>
+    <th colspan="2" style="color: #E23625;"> <h1>NSS<b><i> CAMPS</i></b></h1> </th>
+  </tr>
+  <br><br>
+  <tr onmouseover = "myfunc(this.childNodes[1].childNodes[0])">
+    <td><img id="test" ></td>
+    <td><br><br><b><p class="tabtext">Adventure Camp<br><br>This camp took place in Pong Dam where NSS volunteers from all the states gathered there. 4-5 Volunteers from each college took part in this camp.</b></td></p>
+  </tr>
+   <tr>
+    <td><br><br><p class="tabtext"><b>NIC CAMP<br><br>NATIONAL INTEGRATION CAMP <br> This camp is for the all round development of the person. This camp took place in Manali <b></p></td>
+    <td><img src="assests/blod.jpg"></td>
+    </tr>
+    <tr>
+    <td><img src="assests/camp.jpg"></td>
+    <td><br><br><b><p class="tabtext">ANNUAL CAMP<br><br>This camp is done in the college itself. All the activities are covered in this camp. Visits are also organised for NSS volunteers. This time visit to Annadpur Saahib and Virasat-E-Khalsa was organised.</b></p></td>
+  </tr>
+  
+</table>
+</div>
+</div>
+</body>
+</html>

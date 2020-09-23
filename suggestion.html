@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chitkara</title>
+	<link rel="stylesheet" type="text/css" href="navi1.css">
+	<link rel="stylesheet" type="text/css" href="href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type="text/javascript" src="js/bar.js"></script>  
+</head>
+<body onload="clickIt()"> 
+		<div class="topbar">
+		<div class="ss"><p id="kk">CU-NSS</p>
+		</div>
+<div class="s">		
+		<ul>
+  <li><a href="login.htm">Home</a></li>
+   <li><a href="aim.htm">Aim</a></li>
+    <li><a href="fourpillars.html">Four Pillars</a></li>
+  <li><a href="events.htm">Events</a></li>
+   <li><a href="news.htm">News</a></li>
+  <li><a href="about.htm">About</a></li>
+   <li><a href="suggestion.htm">Suggestions</a></li>
+   </ul>
+</div>
+</div>
+<div class="second">
+	<div class="img1"><img src="assests/culogo.png"></div>
+	<div class="titlehere"><h1 id="d">NSS <br> National Service Scheme</h1><hr width="60%" color="#332965"></div>
+	<div class="img3"><img src="assests/nsslogo.png"></div>
+	<br><br>
+</div>
+<div class="logindetails">
+<div class="query">Queries:</div><br><br>
+  <div class="email"><a href="mailto:sakuchoudhary98@gmail.com" target="_top"><img src="emailicon.jpg"></a> </div>
+  <div class="query1">Register:</div><br><br>
+    <div class="registerform"><img class="open-button" src="assests/formicon.png" onclick="openForm()"></div>
+  </div>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+    <label for="name"><b>First Name</b></label>
+    <input type="text" placeholder="First name" name="fname" id="fname" required>
+    <label for="name"><b>Last Name</b></label>
+    <input type="text" placeholder="Last name" name="lname" id="lname">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id= "pass" required>
+    <button type="button" class="btn" onclick="formValidation()">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form> 
+</div>
+ <div class="mainContent">
+  <form id="userform">
+     <label for="Name" class="formlable">Name: </label><br>
+     <input type="text" name="fname" placeholder="Name" class="inputlable" required><br><br>
+     <label for="email" class="formlable">Email Address:</label><br>
+     <input type="text" name="email" placeholder="Email" class="inputlable" required><br><br>
+     <label for="qustion" class="formlable">Why you want to be the part of NSS?</label><br>
+     <textarea rows="5" cols="50" form="userform" placeholder="Write here..." class="formtextarea"></textarea><br><br> 
+     <label for="radio" class="formlable">Are the activities done by NSS valuable for Personal Development?</label><br>
+     <input type="checkbox">Average<br>
+     <input type="checkbox">Good<br>
+     <input type="checkbox">Excellent <br><br>
+     <label class="formlable">What changes you want to see in the activities of NSS?</label><br>
+     <textarea rows="5" cols="50" form="userform" placeholder="Write here..." class="formtextarea"></textarea><br><br>
+     <label for="qustion" class="formlable">Do you wish to subscribe for the NSS NewsLetter?</label><br>
+     <input type="radio">Yes<br>
+     <input type="radio">No<br><br>
+    <label for="query" class="formlable">Queries/Comments</label><br>
+    <textarea rows="5" cols="50" form="userform" placeholder="Comments here..." class="formtextarea"></textarea><br><br>
+    <input type="submit" id="formsubmit">
+    </form>
+ 	</div>
+
+
+</body>
+</html>
